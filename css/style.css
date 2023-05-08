@@ -18,16 +18,21 @@ header{
 
 .my_container_1{
     color: white;
+    background-color: rgb(30, 152, 227);
 }
 
 .button{
     background-color: #142aeb;
     border: none;
-    padding: 10px 20px;
+    padding: 5px 10px;
     text-align: center;
     display: inline-block;
     margin: 4px 2px;
     border-radius: 16px;
+  }
+
+  .my_container_2{
+    background-color: white;
   }
 
 @media screen and (min-width:992px) {
@@ -42,4 +47,5 @@ header{
         width: calc(100% - 120px);
         background-color: blue;
     }
+
 }
