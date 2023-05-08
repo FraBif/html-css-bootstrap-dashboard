@@ -64,6 +64,11 @@ header{
   }
 
 
+  
+  .my_tab{
+    border: 1px solid grey;
+    padding: 1rem;
+  }
 @media screen and (min-width:992px) {
     .my_navbar{
         height: calc(100vh - 80px);
@@ -74,7 +79,7 @@ header{
     .my_content{
         height: calc(100vh - 80px);
         width: calc(100% - 120px);
-        background-color: blue;
+    
     }
 
 }
