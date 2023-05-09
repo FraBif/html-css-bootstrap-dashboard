@@ -1,17 +1,16 @@
 header{
     width: 100%;
-    height: 80px;
-    background-color: aqua;
+    height: 50px;
 }
 
 .my_navbar{
-    height: calc(100vh - 80px);
+    height: calc(100vh - 50px);
     width: 70px;
-    background-color: red;
+    background-image: url(/img/sidebar-bg.png);
 }
 
 .my_content{
-    height: calc(100vh - 80px);
+    height: calc(100vh - 85px);
     width: calc(100% - 70px);
     background-color: rgb(30, 152, 227);
     overflow: auto;
@@ -63,23 +62,43 @@ header{
     border-bottom: 1px solid grey;
   }
 
-
+  
+  .mobile_logo{
+    width: 200px;
+  }
   
   .my_tab{
     border: 1px solid grey;
     padding: 1rem;
   }
+
+  
+  input{
+    background-color: #f7f7f7;
+    
+  }
+
+  
+  .my_icons>*{
+     margin-left: 20px;
+  }
+
+
 @media screen and (min-width:992px) {
     .my_navbar{
-        height: calc(100vh - 80px);
+        height: calc(100vh - 50px);
         width: 120px;
         background-color: red;
     }
     
     .my_content{
-        height: calc(100vh - 80px);
+        height: calc(100vh - 50px);
         width: calc(100% - 120px);
     
+    }
+
+    .mobile_logo{
+        display: none;
     }
 
 }
@@ -90,6 +109,21 @@ header{
     display: none;
 }
 
+.mobile_logo{
+    display: inline-block;
+}
+
+
+.my_hide_small{
+    display: none;
+}
+}
+
+@media screen and (max-width:768px) {
+    
+    .my_hide_small{
+        display: none;
+    }
 
 }
 
