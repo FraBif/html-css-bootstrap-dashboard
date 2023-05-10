@@ -6,7 +6,11 @@ header{
 .my_navbar{
     height: calc(100vh - 50px);
     width: 70px;
-    background-image: url(/img/sidebar-bg.png);
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(23, 23, 61);
+    color: white;
 }
 
 .my_content{
@@ -58,14 +62,15 @@ header{
 
   
   
+  .my_search{
+    width: 60%;
+  }
+
+  
   .my_border_bot{
     border-bottom: 1px solid grey;
   }
 
-  
-  .mobile_logo{
-    width: 200px;
-  }
   
   .my_tab{
     border: 1px solid grey;
@@ -75,7 +80,14 @@ header{
   
   input{
     background-color: #f7f7f7;
+    width: 100%;
     
+  }
+
+
+  
+  #mobile{
+    width: 60px;
   }
 
   
@@ -88,7 +100,7 @@ header{
     .my_navbar{
         height: calc(100vh - 50px);
         width: 120px;
-        background-color: red;
+        
     }
     
     .my_content{
