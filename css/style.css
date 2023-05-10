@@ -96,6 +96,20 @@ header{
   }
 
 
+  table th:nth-child(1),
+  table td:nth-child(1){
+      width: auto;
+  }
+  
+  table th:not(:nth-child(1)),
+  table td:not(:nth-child(1)){
+      width: 110px;
+      text-align: center;
+  }
+  
+
+
+
 @media screen and (min-width:992px) {
     .my_navbar{
         height: calc(100vh - 50px);
